@@ -1,0 +1,24 @@
+{
+  "name": "webpro_website",
+  "version": "0.0.1",
+  "description": "website",
+  "main": "index.js",
+  "authors": {
+    "name": "taive",
+    "email": "taive@webpro.ee"
+  },
+  "repository": "/webpro_website",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src",
+    "start": "nodemon --ext md,vue --watch .vuepress --watch . --exec vuepress dev src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "vuepress": "^1.5.3"
+  },
+  "dependencies": {
+    "markdown-it-attrs": "^4.1.6"
+  }
+}

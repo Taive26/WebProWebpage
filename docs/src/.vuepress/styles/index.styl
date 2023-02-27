@@ -1,0 +1,71 @@
+// Custom styling
+.home
+  padding: 0
+
+html
+  background-color: $backgroundColor
+
+  body
+    background-color: $backgroundColor
+
+    .theme-container
+      min-height: calc(100vh - 10.3125rem)
+
+      .navbar
+        display: flex
+        align-items: center
+        height: 4.5rem
+        background-color: $backgroundColor
+        border-bottom-width: 0.125rem
+
+      .site-name
+        font-size: 1.5rem
+
+      .links
+        background-color: transparent
+        height: 3rem
+        align-items: center
+        font-size: 1rem
+        color: $textColor
+
+    .sidebar
+      font-size: 14pt
+
+    .home
+      padding: 8rem 0 0
+
+      .hero
+        margin-left: 2rem
+        margin-right: 2rem
+        transition: box-shadow 0.2s
+        border-radius: 5.625rem
+        margin-bottom: 0.625rem
+        background-image: radial-gradient(circle at center center, #2c303a, $backgroundColor)
+        padding: 2rem
+
+        img
+          transition: transform 0.2s
+
+      .hero:hover
+        box-shadow: 0.125rem 0.5rem 1rem 0.125rem #404E4D
+
+        img
+          transform: scale(1.1)
+
+    .theme-default-content:not(.custom)
+      font-size: 14pt;
+      img
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        width: 70%;
+      img#urmo
+        margin-left: 2px;
+      img#elli
+        margin-left: 2px;
+      img#kaido
+        margin-left: 2px;
+      img#samael
+        margin-left: 2px;
+
