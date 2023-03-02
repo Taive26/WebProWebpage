@@ -1,5 +1,5 @@
 # Kontaktid
-Veebiarendaja OÜ
+**Veebiarendaja OÜ**
 
 Registrikood: 14368583
 </br>
