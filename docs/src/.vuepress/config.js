@@ -1,7 +1,7 @@
 // const { description } = require('../../package')
 
 module.exports = {
-
+  base: '/',
   title: 'WebPro',
   description: 'VEEBILAHENDUSED SINU ETTEVÕTTELE',
 
