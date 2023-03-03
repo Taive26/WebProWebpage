@@ -9,8 +9,14 @@ Written with VuePress
 `npm install`
 ```
 
-#### Build the page:
+#### Load the page:
 
 ```
 `npm start`
+```
+
+#### Build the page:
+
+```
+`npm build`
 ```
